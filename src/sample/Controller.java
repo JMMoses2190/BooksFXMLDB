@@ -15,12 +15,12 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 public class Controller {
+
   private static int recordNumber = 1;
 
   final String DATABASE_URL = "jdbc:derby:C:\\Users\\Jorda\\IdeaProjects\\BooksDBFX\\lib\\books";
 
   @FXML
-
 
   private TextField enterFirstName;
 
